@@ -1,0 +1,66 @@
+//
+//  PrefixHeader.pch
+//  ATXCF
+//
+//  Created by 谷士雄 on 16/9/23.
+//  Copyright © 2016年 alan. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+
+#define ATColor(r, g, b, a)  [UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:a]
+
+//搜索框内部背景色
+#define ATSearchBarBackgroundColor ATColor(238, 240, 234, 1.0)
+
+//主体背景色
+#define ATMainBackgroundColor ATColor(245, 245, 245, 1)
+
+//分割线背景色
+#define ATSeparatorBackgroundColor ATColor(240, 240, 240, 1)
+
+#define screenWidth  [UIScreen mainScreen].bounds.size.width
+
+#define screenHeight [UIScreen mainScreen].bounds.size.height
+// 状态栏(statusbar)
+#define  statusHeight ([[UIApplication sharedApplication] statusBarFrame].size.height)
+// 导航栏（navigationbar）
+#define  navigationBarHeight (self.navigationController.navigationBar.frame.size.height)
+// tabBar高度
+#define  tabBarHeight [[UITabBarController alloc] init].tabBar.frame.size.height
+
+
+#ifdef DEBUG
+#define ATLog(...) NSLog(__VA_ARGS__)
+#else
+#define ATLog(...)
+#endif
+
+//define this constant if you want to use Masonry without the 'mas_' prefix
+#define MAS_SHORTHAND
+//define this constant if you want to enable auto-boxing for default syntax(这俩必须放在#import "Masonry.h"前面)
+#define MAS_SHORTHAND_GLOBALS
+#import "Masonry.h"
+
+#import "ATNetworking.h"
+#import "NSObject+ATProperty.h"
+#import "NSObject+ATObjectModel.h"
+
+#import "UITableView+ATHeightCache.h"
+#import "UITableViewCell+ATCalcCellHeight.h"
+
+#import "SVProgressHUD.h"
+
+#import "OpenShareHeader.h"
+#import "ATShared.h"
+#import "ATSetupNavShare.h"
+
+#import "ATImageView.h"
+#import "ATButton.h"
+#import "ATLabel.h"
+#endif
+
+#endif /* PrefixHeader_pch */
