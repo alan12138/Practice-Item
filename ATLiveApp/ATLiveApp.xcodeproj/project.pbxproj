@@ -1,0 +1,822 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CFC48A7EF2D8BB6083205E7 /* libPods-ATLiveAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CF087D2D454E765CDC8A3F /* libPods-ATLiveAppUITests.a */; };
+		7241A6D823BEDC4300E5BD72 /* ATShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7241A6D723BEDC4300E5BD72 /* ATShowViewController.m */; };
+		7241A6DB23BF05E500E5BD72 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7241A6DA23BF05E500E5BD72 /* IJKMediaFramework.framework */; };
+		7241A6DD23BF061500E5BD72 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7241A6DC23BF061500E5BD72 /* AudioToolbox.framework */; };
+		7241A6DF23BF061E00E5BD72 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7241A6DE23BF061E00E5BD72 /* AVFoundation.framework */; };
+		7241A6E123BF062C00E5BD72 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7241A6E023BF062C00E5BD72 /* CoreMedia.framework */; };
+		7241A6E323BF063500E5BD72 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7241A6E223BF063500E5BD72 /* CoreVideo.framework */; };
+		7241A6E523BF066000E5BD72 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7241A6E423BF065200E5BD72 /* libbz2.tbd */; };
+		7241A6E723BF067300E5BD72 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7241A6E623BF066B00E5BD72 /* libz.tbd */; };
+		7241A6E923BF067D00E5BD72 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7241A6E823BF067D00E5BD72 /* MediaPlayer.framework */; };
+		7241A6EB23BF068700E5BD72 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7241A6EA23BF068700E5BD72 /* MobileCoreServices.framework */; };
+		7241A6ED23BF069200E5BD72 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7241A6EC23BF069200E5BD72 /* OpenGLES.framework */; };
+		7241A6EF23BF069A00E5BD72 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7241A6EE23BF069A00E5BD72 /* VideoToolbox.framework */; };
+		7241A6F223BF06FB00E5BD72 /* ATShowListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7241A6F123BF06FB00E5BD72 /* ATShowListViewController.m */; };
+		7241A6F523BF07EC00E5BD72 /* ATPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7241A6F423BF07EC00E5BD72 /* ATPlayViewController.m */; };
+		7241A6FF23BF0C1B00E5BD72 /* ATNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7241A6F923BF0C1B00E5BD72 /* ATNetworking.m */; };
+		7241A70023BF0C1B00E5BD72 /* NSObject+ATProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 7241A6FB23BF0C1B00E5BD72 /* NSObject+ATProperty.m */; };
+		7241A70123BF0C1B00E5BD72 /* NSObject+ATObjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7241A6FC23BF0C1B00E5BD72 /* NSObject+ATObjectModel.m */; };
+		7241A70423BF0FF500E5BD72 /* ATShowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7241A70323BF0FF500E5BD72 /* ATShowItem.m */; };
+		7241A70723BF112500E5BD72 /* ATShowItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7241A70623BF112500E5BD72 /* ATShowItemTableViewCell.m */; };
+		72BB45AA23BDCF610029319B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BB45A923BDCF610029319B /* AppDelegate.m */; };
+		72BB45AD23BDCF610029319B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BB45AC23BDCF610029319B /* SceneDelegate.m */; };
+		72BB45B023BDCF610029319B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BB45AF23BDCF610029319B /* ViewController.m */; };
+		72BB45B523BDCF710029319B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72BB45B423BDCF710029319B /* Assets.xcassets */; };
+		72BB45B823BDCF710029319B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72BB45B623BDCF710029319B /* LaunchScreen.storyboard */; };
+		72BB45BB23BDCF710029319B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BB45BA23BDCF710029319B /* main.m */; };
+		72BB45C523BDCF720029319B /* ATLiveAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BB45C423BDCF720029319B /* ATLiveAppTests.m */; };
+		72BB45D023BDCF720029319B /* ATLiveAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BB45CF23BDCF720029319B /* ATLiveAppUITests.m */; };
+		A8D0E57EF83891792D8C1838 /* libPods-ATLiveApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCC30E5986DA34A8F371FAC /* libPods-ATLiveApp.a */; };
+		FE6CD89D511D44D1CA92F503 /* libPods-ATLiveAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB55C60B0E05F7129778A317 /* libPods-ATLiveAppTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72BB45C123BDCF720029319B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72BB459D23BDCF600029319B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72BB45A423BDCF600029319B;
+			remoteInfo = ATLiveApp;
+		};
+		72BB45CC23BDCF720029319B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72BB459D23BDCF600029319B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72BB45A423BDCF600029319B;
+			remoteInfo = ATLiveApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020F8503D5978E5C0D946F20 /* Pods-ATLiveAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATLiveAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ATLiveAppTests/Pods-ATLiveAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2DCC30E5986DA34A8F371FAC /* libPods-ATLiveApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ATLiveApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A30AB5DDDA0AC1E23C8C6CA /* Pods-ATLiveApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATLiveApp.debug.xcconfig"; path = "Target Support Files/Pods-ATLiveApp/Pods-ATLiveApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7241A6D623BEDC4300E5BD72 /* ATShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATShowViewController.h; sourceTree = "<group>"; };
+		7241A6D723BEDC4300E5BD72 /* ATShowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATShowViewController.m; sourceTree = "<group>"; };
+		7241A6DA23BF05E500E5BD72 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		7241A6DC23BF061500E5BD72 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7241A6DE23BF061E00E5BD72 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7241A6E023BF062C00E5BD72 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		7241A6E223BF063500E5BD72 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		7241A6E423BF065200E5BD72 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		7241A6E623BF066B00E5BD72 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		7241A6E823BF067D00E5BD72 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		7241A6EA23BF068700E5BD72 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7241A6EC23BF069200E5BD72 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		7241A6EE23BF069A00E5BD72 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		7241A6F023BF06FB00E5BD72 /* ATShowListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATShowListViewController.h; sourceTree = "<group>"; };
+		7241A6F123BF06FB00E5BD72 /* ATShowListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATShowListViewController.m; sourceTree = "<group>"; };
+		7241A6F323BF07EB00E5BD72 /* ATPlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATPlayViewController.h; sourceTree = "<group>"; };
+		7241A6F423BF07EC00E5BD72 /* ATPlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATPlayViewController.m; sourceTree = "<group>"; };
+		7241A6F823BF0C1B00E5BD72 /* ATNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNetworking.h; sourceTree = "<group>"; };
+		7241A6F923BF0C1B00E5BD72 /* ATNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNetworking.m; sourceTree = "<group>"; };
+		7241A6FB23BF0C1B00E5BD72 /* NSObject+ATProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ATProperty.m"; sourceTree = "<group>"; };
+		7241A6FC23BF0C1B00E5BD72 /* NSObject+ATObjectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ATObjectModel.m"; sourceTree = "<group>"; };
+		7241A6FD23BF0C1B00E5BD72 /* NSObject+ATObjectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ATObjectModel.h"; sourceTree = "<group>"; };
+		7241A6FE23BF0C1B00E5BD72 /* NSObject+ATProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ATProperty.h"; sourceTree = "<group>"; };
+		7241A70223BF0FF500E5BD72 /* ATShowItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATShowItem.h; sourceTree = "<group>"; };
+		7241A70323BF0FF500E5BD72 /* ATShowItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATShowItem.m; sourceTree = "<group>"; };
+		7241A70523BF112500E5BD72 /* ATShowItemTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATShowItemTableViewCell.h; sourceTree = "<group>"; };
+		7241A70623BF112500E5BD72 /* ATShowItemTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATShowItemTableViewCell.m; sourceTree = "<group>"; };
+		72BB45A523BDCF600029319B /* ATLiveApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATLiveApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72BB45A823BDCF610029319B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		72BB45A923BDCF610029319B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		72BB45AB23BDCF610029319B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		72BB45AC23BDCF610029319B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		72BB45AE23BDCF610029319B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		72BB45AF23BDCF610029319B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		72BB45B423BDCF710029319B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72BB45B723BDCF710029319B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72BB45B923BDCF710029319B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72BB45BA23BDCF710029319B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72BB45C023BDCF720029319B /* ATLiveAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATLiveAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72BB45C423BDCF720029319B /* ATLiveAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATLiveAppTests.m; sourceTree = "<group>"; };
+		72BB45C623BDCF720029319B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72BB45CB23BDCF720029319B /* ATLiveAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATLiveAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72BB45CF23BDCF720029319B /* ATLiveAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATLiveAppUITests.m; sourceTree = "<group>"; };
+		72BB45D123BDCF720029319B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82582BC25EA8B6D38AD98EB9 /* Pods-ATLiveAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATLiveAppTests.release.xcconfig"; path = "Target Support Files/Pods-ATLiveAppTests/Pods-ATLiveAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		A6C0DEC630CD9CED066AA041 /* Pods-ATLiveApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATLiveApp.release.xcconfig"; path = "Target Support Files/Pods-ATLiveApp/Pods-ATLiveApp.release.xcconfig"; sourceTree = "<group>"; };
+		AE5BA29A58018849C0A1F5CC /* Pods-ATLiveAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATLiveAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-ATLiveAppUITests/Pods-ATLiveAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA6A662BE4DAE40CACB2CC5C /* Pods-ATLiveAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATLiveAppUITests.release.xcconfig"; path = "Target Support Files/Pods-ATLiveAppUITests/Pods-ATLiveAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D0CF087D2D454E765CDC8A3F /* libPods-ATLiveAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ATLiveAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB55C60B0E05F7129778A317 /* libPods-ATLiveAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ATLiveAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72BB45A223BDCF600029319B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7241A6DF23BF061E00E5BD72 /* AVFoundation.framework in Frameworks */,
+				7241A6E723BF067300E5BD72 /* libz.tbd in Frameworks */,
+				7241A6E523BF066000E5BD72 /* libbz2.tbd in Frameworks */,
+				7241A6EB23BF068700E5BD72 /* MobileCoreServices.framework in Frameworks */,
+				7241A6ED23BF069200E5BD72 /* OpenGLES.framework in Frameworks */,
+				A8D0E57EF83891792D8C1838 /* libPods-ATLiveApp.a in Frameworks */,
+				7241A6DB23BF05E500E5BD72 /* IJKMediaFramework.framework in Frameworks */,
+				7241A6DD23BF061500E5BD72 /* AudioToolbox.framework in Frameworks */,
+				7241A6EF23BF069A00E5BD72 /* VideoToolbox.framework in Frameworks */,
+				7241A6E123BF062C00E5BD72 /* CoreMedia.framework in Frameworks */,
+				7241A6E923BF067D00E5BD72 /* MediaPlayer.framework in Frameworks */,
+				7241A6E323BF063500E5BD72 /* CoreVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72BB45BD23BDCF720029319B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6CD89D511D44D1CA92F503 /* libPods-ATLiveAppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72BB45C823BDCF720029319B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CFC48A7EF2D8BB6083205E7 /* libPods-ATLiveAppUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7241A6D923BF05E500E5BD72 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7241A6FA23BF0C1B00E5BD72 /* ATDict2Model */,
+				7241A6F723BF0C1B00E5BD72 /* ATNetworking */,
+				7241A6DA23BF05E500E5BD72 /* IJKMediaFramework.framework */,
+			);
+			path = frameworks;
+			sourceTree = "<group>";
+		};
+		7241A6F723BF0C1B00E5BD72 /* ATNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				7241A6F823BF0C1B00E5BD72 /* ATNetworking.h */,
+				7241A6F923BF0C1B00E5BD72 /* ATNetworking.m */,
+			);
+			path = ATNetworking;
+			sourceTree = "<group>";
+		};
+		7241A6FA23BF0C1B00E5BD72 /* ATDict2Model */ = {
+			isa = PBXGroup;
+			children = (
+				7241A6FB23BF0C1B00E5BD72 /* NSObject+ATProperty.m */,
+				7241A6FC23BF0C1B00E5BD72 /* NSObject+ATObjectModel.m */,
+				7241A6FD23BF0C1B00E5BD72 /* NSObject+ATObjectModel.h */,
+				7241A6FE23BF0C1B00E5BD72 /* NSObject+ATProperty.h */,
+			);
+			path = ATDict2Model;
+			sourceTree = "<group>";
+		};
+		72BB459C23BDCF600029319B = {
+			isa = PBXGroup;
+			children = (
+				72BB45A723BDCF610029319B /* ATLiveApp */,
+				72BB45C323BDCF720029319B /* ATLiveAppTests */,
+				72BB45CE23BDCF720029319B /* ATLiveAppUITests */,
+				72BB45A623BDCF610029319B /* Products */,
+				FA07E9E434E33F4A86719814 /* Pods */,
+				D26D88B01662E484298C52C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72BB45A623BDCF610029319B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72BB45A523BDCF600029319B /* ATLiveApp.app */,
+				72BB45C023BDCF720029319B /* ATLiveAppTests.xctest */,
+				72BB45CB23BDCF720029319B /* ATLiveAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72BB45A723BDCF610029319B /* ATLiveApp */ = {
+			isa = PBXGroup;
+			children = (
+				7241A6D923BF05E500E5BD72 /* frameworks */,
+				72BB45A823BDCF610029319B /* AppDelegate.h */,
+				72BB45A923BDCF610029319B /* AppDelegate.m */,
+				72BB45AB23BDCF610029319B /* SceneDelegate.h */,
+				72BB45AC23BDCF610029319B /* SceneDelegate.m */,
+				72BB45AE23BDCF610029319B /* ViewController.h */,
+				72BB45AF23BDCF610029319B /* ViewController.m */,
+				72BB45B423BDCF710029319B /* Assets.xcassets */,
+				72BB45B623BDCF710029319B /* LaunchScreen.storyboard */,
+				72BB45B923BDCF710029319B /* Info.plist */,
+				72BB45BA23BDCF710029319B /* main.m */,
+				7241A6D623BEDC4300E5BD72 /* ATShowViewController.h */,
+				7241A6D723BEDC4300E5BD72 /* ATShowViewController.m */,
+				7241A6F023BF06FB00E5BD72 /* ATShowListViewController.h */,
+				7241A6F123BF06FB00E5BD72 /* ATShowListViewController.m */,
+				7241A6F323BF07EB00E5BD72 /* ATPlayViewController.h */,
+				7241A6F423BF07EC00E5BD72 /* ATPlayViewController.m */,
+				7241A70223BF0FF500E5BD72 /* ATShowItem.h */,
+				7241A70323BF0FF500E5BD72 /* ATShowItem.m */,
+				7241A70523BF112500E5BD72 /* ATShowItemTableViewCell.h */,
+				7241A70623BF112500E5BD72 /* ATShowItemTableViewCell.m */,
+			);
+			path = ATLiveApp;
+			sourceTree = "<group>";
+		};
+		72BB45C323BDCF720029319B /* ATLiveAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				72BB45C423BDCF720029319B /* ATLiveAppTests.m */,
+				72BB45C623BDCF720029319B /* Info.plist */,
+			);
+			path = ATLiveAppTests;
+			sourceTree = "<group>";
+		};
+		72BB45CE23BDCF720029319B /* ATLiveAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72BB45CF23BDCF720029319B /* ATLiveAppUITests.m */,
+				72BB45D123BDCF720029319B /* Info.plist */,
+			);
+			path = ATLiveAppUITests;
+			sourceTree = "<group>";
+		};
+		D26D88B01662E484298C52C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7241A6EE23BF069A00E5BD72 /* VideoToolbox.framework */,
+				7241A6EC23BF069200E5BD72 /* OpenGLES.framework */,
+				7241A6EA23BF068700E5BD72 /* MobileCoreServices.framework */,
+				7241A6E823BF067D00E5BD72 /* MediaPlayer.framework */,
+				7241A6E623BF066B00E5BD72 /* libz.tbd */,
+				7241A6E423BF065200E5BD72 /* libbz2.tbd */,
+				7241A6E223BF063500E5BD72 /* CoreVideo.framework */,
+				7241A6E023BF062C00E5BD72 /* CoreMedia.framework */,
+				7241A6DE23BF061E00E5BD72 /* AVFoundation.framework */,
+				7241A6DC23BF061500E5BD72 /* AudioToolbox.framework */,
+				2DCC30E5986DA34A8F371FAC /* libPods-ATLiveApp.a */,
+				FB55C60B0E05F7129778A317 /* libPods-ATLiveAppTests.a */,
+				D0CF087D2D454E765CDC8A3F /* libPods-ATLiveAppUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA07E9E434E33F4A86719814 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A30AB5DDDA0AC1E23C8C6CA /* Pods-ATLiveApp.debug.xcconfig */,
+				A6C0DEC630CD9CED066AA041 /* Pods-ATLiveApp.release.xcconfig */,
+				020F8503D5978E5C0D946F20 /* Pods-ATLiveAppTests.debug.xcconfig */,
+				82582BC25EA8B6D38AD98EB9 /* Pods-ATLiveAppTests.release.xcconfig */,
+				AE5BA29A58018849C0A1F5CC /* Pods-ATLiveAppUITests.debug.xcconfig */,
+				BA6A662BE4DAE40CACB2CC5C /* Pods-ATLiveAppUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72BB45A423BDCF600029319B /* ATLiveApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72BB45D423BDCF720029319B /* Build configuration list for PBXNativeTarget "ATLiveApp" */;
+			buildPhases = (
+				CDDFF624A35F01D769F1C869 /* [CP] Check Pods Manifest.lock */,
+				72BB45A123BDCF600029319B /* Sources */,
+				72BB45A223BDCF600029319B /* Frameworks */,
+				72BB45A323BDCF600029319B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATLiveApp;
+			productName = ATLiveApp;
+			productReference = 72BB45A523BDCF600029319B /* ATLiveApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72BB45BF23BDCF720029319B /* ATLiveAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72BB45D723BDCF720029319B /* Build configuration list for PBXNativeTarget "ATLiveAppTests" */;
+			buildPhases = (
+				886996D82052732F23A50625 /* [CP] Check Pods Manifest.lock */,
+				72BB45BC23BDCF720029319B /* Sources */,
+				72BB45BD23BDCF720029319B /* Frameworks */,
+				72BB45BE23BDCF720029319B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72BB45C223BDCF720029319B /* PBXTargetDependency */,
+			);
+			name = ATLiveAppTests;
+			productName = ATLiveAppTests;
+			productReference = 72BB45C023BDCF720029319B /* ATLiveAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72BB45CA23BDCF720029319B /* ATLiveAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72BB45DA23BDCF720029319B /* Build configuration list for PBXNativeTarget "ATLiveAppUITests" */;
+			buildPhases = (
+				0FFE865CF44E8B44CB48638E /* [CP] Check Pods Manifest.lock */,
+				72BB45C723BDCF720029319B /* Sources */,
+				72BB45C823BDCF720029319B /* Frameworks */,
+				72BB45C923BDCF720029319B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72BB45CD23BDCF720029319B /* PBXTargetDependency */,
+			);
+			name = ATLiveAppUITests;
+			productName = ATLiveAppUITests;
+			productReference = 72BB45CB23BDCF720029319B /* ATLiveAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72BB459D23BDCF600029319B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "张伟";
+				TargetAttributes = {
+					72BB45A423BDCF600029319B = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					72BB45BF23BDCF720029319B = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 72BB45A423BDCF600029319B;
+					};
+					72BB45CA23BDCF720029319B = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 72BB45A423BDCF600029319B;
+					};
+				};
+			};
+			buildConfigurationList = 72BB45A023BDCF600029319B /* Build configuration list for PBXProject "ATLiveApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72BB459C23BDCF600029319B;
+			productRefGroup = 72BB45A623BDCF610029319B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72BB45A423BDCF600029319B /* ATLiveApp */,
+				72BB45BF23BDCF720029319B /* ATLiveAppTests */,
+				72BB45CA23BDCF720029319B /* ATLiveAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72BB45A323BDCF600029319B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BB45B823BDCF710029319B /* LaunchScreen.storyboard in Resources */,
+				72BB45B523BDCF710029319B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72BB45BE23BDCF720029319B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72BB45C923BDCF720029319B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FFE865CF44E8B44CB48638E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ATLiveAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		886996D82052732F23A50625 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ATLiveAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDDFF624A35F01D769F1C869 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ATLiveApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72BB45A123BDCF600029319B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BB45B023BDCF610029319B /* ViewController.m in Sources */,
+				7241A70023BF0C1B00E5BD72 /* NSObject+ATProperty.m in Sources */,
+				7241A6F523BF07EC00E5BD72 /* ATPlayViewController.m in Sources */,
+				7241A70123BF0C1B00E5BD72 /* NSObject+ATObjectModel.m in Sources */,
+				72BB45AA23BDCF610029319B /* AppDelegate.m in Sources */,
+				7241A6F223BF06FB00E5BD72 /* ATShowListViewController.m in Sources */,
+				72BB45BB23BDCF710029319B /* main.m in Sources */,
+				7241A70423BF0FF500E5BD72 /* ATShowItem.m in Sources */,
+				7241A70723BF112500E5BD72 /* ATShowItemTableViewCell.m in Sources */,
+				7241A6D823BEDC4300E5BD72 /* ATShowViewController.m in Sources */,
+				7241A6FF23BF0C1B00E5BD72 /* ATNetworking.m in Sources */,
+				72BB45AD23BDCF610029319B /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72BB45BC23BDCF720029319B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BB45C523BDCF720029319B /* ATLiveAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72BB45C723BDCF720029319B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BB45D023BDCF720029319B /* ATLiveAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72BB45C223BDCF720029319B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72BB45A423BDCF600029319B /* ATLiveApp */;
+			targetProxy = 72BB45C123BDCF720029319B /* PBXContainerItemProxy */;
+		};
+		72BB45CD23BDCF720029319B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72BB45A423BDCF600029319B /* ATLiveApp */;
+			targetProxy = 72BB45CC23BDCF720029319B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72BB45B623BDCF710029319B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72BB45B723BDCF710029319B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72BB45D223BDCF720029319B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		72BB45D323BDCF720029319B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72BB45D523BDCF720029319B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A30AB5DDDA0AC1E23C8C6CA /* Pods-ATLiveApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YMV59KYT8V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ATLiveApp/frameworks",
+				);
+				INFOPLIST_FILE = ATLiveApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwww.ATLiveApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72BB45D623BDCF720029319B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6C0DEC630CD9CED066AA041 /* Pods-ATLiveApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YMV59KYT8V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ATLiveApp/frameworks",
+				);
+				INFOPLIST_FILE = ATLiveApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwww.ATLiveApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		72BB45D823BDCF720029319B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 020F8503D5978E5C0D946F20 /* Pods-ATLiveAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YMV59KYT8V;
+				INFOPLIST_FILE = ATLiveAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwww.ATLiveAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATLiveApp.app/ATLiveApp";
+			};
+			name = Debug;
+		};
+		72BB45D923BDCF720029319B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82582BC25EA8B6D38AD98EB9 /* Pods-ATLiveAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YMV59KYT8V;
+				INFOPLIST_FILE = ATLiveAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwww.ATLiveAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATLiveApp.app/ATLiveApp";
+			};
+			name = Release;
+		};
+		72BB45DB23BDCF720029319B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE5BA29A58018849C0A1F5CC /* Pods-ATLiveAppUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YMV59KYT8V;
+				INFOPLIST_FILE = ATLiveAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwww.ATLiveAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ATLiveApp;
+			};
+			name = Debug;
+		};
+		72BB45DC23BDCF720029319B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA6A662BE4DAE40CACB2CC5C /* Pods-ATLiveAppUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YMV59KYT8V;
+				INFOPLIST_FILE = ATLiveAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwww.ATLiveAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ATLiveApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72BB45A023BDCF600029319B /* Build configuration list for PBXProject "ATLiveApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72BB45D223BDCF720029319B /* Debug */,
+				72BB45D323BDCF720029319B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72BB45D423BDCF720029319B /* Build configuration list for PBXNativeTarget "ATLiveApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72BB45D523BDCF720029319B /* Debug */,
+				72BB45D623BDCF720029319B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72BB45D723BDCF720029319B /* Build configuration list for PBXNativeTarget "ATLiveAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72BB45D823BDCF720029319B /* Debug */,
+				72BB45D923BDCF720029319B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72BB45DA23BDCF720029319B /* Build configuration list for PBXNativeTarget "ATLiveAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72BB45DB23BDCF720029319B /* Debug */,
+				72BB45DC23BDCF720029319B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72BB459D23BDCF600029319B /* Project object */;
+}
